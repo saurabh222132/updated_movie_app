@@ -8,7 +8,7 @@ const Header = () => {
       <div className="headerLeft">
         <Link to="/">
           <img
-            className="header__icon"
+            className=" rounded-full header__icon"
             src="https://thumbs.dreamstime.com/b/movie-illustration-logo-vector-design-film-178252125.jpg"
             alt=""
           />
