@@ -12,7 +12,7 @@ app.use(
 
     origin: [
       "http://localhost:3000",
-      "https://updated-movie-app-frontend-521xzl4ny.vercel.app/",
+      "https://updated-movie-app-frontend.vercel.app",
     ],
   })
 );
