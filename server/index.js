@@ -11,13 +11,15 @@ app.use(
     credentials: true,
 
     origin: [
-      "https://main--shoppinghub12.netlify.app",
-      "https://ecommerce-frontend-testing-server.onrender.com",
       "http://localhost:3000",
-      "https://shoppinghub12.netlify.app",
+      "https://updated-movie-app-frontend-521xzl4ny.vercel.app/",
     ],
   })
 );
+
+app.get("/", (req, res) => {
+  res.send({ message: "Your server is live", success: true });
+});
 
 DB();
 app.use(bodyParser.urlencoded({ extended: true }));
