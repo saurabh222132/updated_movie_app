@@ -36,6 +36,7 @@ const Movie = () => {
           <div className="movie__detailLeft">
             <div className="movie__posterBox">
               <img
+                alt="props"
                 className="movie__poster"
                 src={`https://image.tmdb.org/t/p/original${
                   currentMovieDetail ? currentMovieDetail.poster_path : ""
