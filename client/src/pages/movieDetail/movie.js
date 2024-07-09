@@ -25,6 +25,7 @@ const Movie = () => {
       <div className="movie">
         <div className="movie__intro">
           <img
+            alt="thumbnail"
             className="movie__backdrop"
             src={`https://image.tmdb.org/t/p/original${
               currentMovieDetail ? currentMovieDetail.backdrop_path : ""
