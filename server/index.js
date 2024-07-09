@@ -16,6 +16,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "https://updated-movie-app-frontend.vercel.app",
+      "https://updated-movie-app-admin.vercel.app",
     ],
   })
 );
