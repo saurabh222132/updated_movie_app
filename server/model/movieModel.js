@@ -24,6 +24,7 @@ const movieSchema = new mongoose.Schema({
   popular: { type: Array },
 });
 
+
 const movieListModel = mongoose.model("movies", movieSchema);
 
 module.exports = { movieListModel };

@@ -10,7 +10,7 @@ const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
   const [page, setPage] = useState(1);
 
-  useEffect(async () => {
+  useEffect(() => {
     const main = async () => {
       await fetch(BaseURL + `/v1/movielist`, {
         method: "POST",
@@ -46,6 +46,7 @@ const Home = () => {
             >
               <div className="posterImage">
                 <img
+                  alt=" movie poster"
                   src={`https://image.tmdb.org/t/p/original${
                     movie && movie.backdrop_path
                   }`}

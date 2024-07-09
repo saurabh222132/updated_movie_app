@@ -11,7 +11,7 @@ const MovieList = () => {
   const [isPageEnd, setIsPageEnd] = useState(false);
 
   let { type } = useParams();
-  if (type == undefined) type = "popular";
+  if (type === undefined) type = "popular";
   console.log("this is the type", type);
 
   useEffect(() => {
